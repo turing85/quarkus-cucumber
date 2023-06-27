@@ -31,9 +31,8 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <skipITs>false</skipITs>
 
-    <quarkus.version>3.0.3.Final</quarkus.version>
+    <quarkus.version>999-SNAPSHOT</quarkus.version>
     <cucumber.version>7.11.2</cucumber.version>
-    <weld.version>4.0.0.Final</weld.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -48,11 +47,6 @@
         <groupId>io.cucumber</groupId>
         <artifactId>cucumber-java</artifactId>
         <version>${cucumber.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.weld</groupId>
-        <artifactId>weld-junit5</artifactId>
-        <version>${weld.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
